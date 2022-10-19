@@ -1,0 +1,30 @@
+<script type = "text/javascript">
+    function Success() {
+       alert ("Details submitted Successfully!");
+       window.location.href = "/home";
+    }
+</script> 
+<body  background="Assets/images/background.jpg">
+ <main class="container" style="height: 530px;">
+     <div class="jumbotron" style="height: 550px;">
+         <h1 class="display-6" style="color: black;">Contact Me</h1>
+         <div style="font-size: 16px; background-color:white; width:510px; font-family: cursive; padding: 10px; float: right;">
+             <form>
+                 <label><input type="text" id="fname" name="fname" placeholder="First Name"></label>
+                 <label><input type="text" id="lname" name="lname" placeholder="Last Name"></label>
+                 <label><input type="text" id="phone" name="phone" placeholder="Contact Number"></label>
+                 <label><input type="text" id="email" name="email" placeholder="Email ID"></label>
+                 <textarea type="text" id="msg" name="msg" placeholder="Message" rows="5" cols="48"></textarea>
+                 <button type="submit" form="form" value="Submit" class="btn btn-primary" onclick="Success()">Submit</button>
+             </form>
+         </div>
+         <div class="panel panel-default">
+             <div class="panel-body" style="font-size: 18px; background-color:white; width:510px; font-family: cursive; padding: 10px;">
+                 <br><strong>Email : </strong><br>msood11@my.centennialcollege.ca<br><br>
+                 <strong>Phone : </strong><br>+91-9991940506<br><br>
+                 <strong>Address : </strong><br>Pune, India<br>
+             </div>
+         </div>
+     </div>
+ </main>
+</body>

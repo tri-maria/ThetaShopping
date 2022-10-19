@@ -1,0 +1,28 @@
+<body>
+    <main class="container">
+    <div class="login-wrapper"></div>
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <h1>Profile</h1>
+                <form method="POST" autocomplete="off">
+                    <fieldset class="form-group">
+                        <label for="username">Username: </label>
+                        <input type="text" class="form-control" name="username" value="<%= username%>" id="username" readonly>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" class="form-control" name="email" value="<%= email%>" placeholder="Enter email Address" id="email" readonly>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <label for="displayName">Display name: </label>
+                        <input type="text" class="form-control" name="displayName" value="<%= displayName%>" placeholder="Enter Display Name" id="displayName" readonly>
+                    
+                    </fieldset>
+                
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
